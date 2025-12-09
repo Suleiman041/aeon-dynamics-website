@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeon Dynamics | Engineering Tomorrow. Reinventing Intelligence.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="AEON_light_mode-removebg-preview.png" alt="Aeon Dynamics" class="logo-image" id="logoImage">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#technologies" class="nav-link">Technologies</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#softwares" class="nav-link">Softwares</a></li>
+                <li><a href="#innovation" class="nav-link">Innovation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <canvas id="heroCanvas"></canvas>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Engineering Tomorrow.</span>
+                        <span class="title-line">Reinventing Intelligence.</span>
+                    </h1>
+                    <p class="hero-subtitle">Robotics • Automation • Artificial Intelligence • Mechatronics</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Collaborate with Aeon</a>
+                        <a href="#technologies" class="btn btn-secondary">Explore Technologies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="robotic-arm-image-container">
+                    <img src="robot arms.png" alt="Aeon Dynamics Robotic Arms" class="robotic-arm-image"
+                        id="roboticArmImage">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Next-Gen Robotics Showcase (Hero Section #2) -->
+    <section id="robotics-showcase" class="section robotics-showcase">
+        <div class="showcase-banner">
+            <video class="showcase-video" autoplay loop muted playsinline>
+                <source src="159021-818026286_large.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="showcase-overlay"></div>
+            <div class="showcase-content">
+                <h2 class="showcase-headline">Hybrid Robotics for a New Era.</h2>
+                <p class="showcase-subtext">Precision. Intelligence. Autonomy.</p>
+                <a href="#products" class="btn btn-tesla">Explore Systems</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">About</span>
+                <h2 class="section-title">Aeon Dynamics</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Aeon Dynamics stands at the forefront of next-generation robotics, automation, and artificial
+                        intelligence. We engineer systems that seamlessly integrate into human life, enhancing
+                        capabilities and unlocking new possibilities.
+                    </p>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
+                                    </path>
+                                    <path
+                                        d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+                                    </path>
+                                    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                                    <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                                </svg>
+                            </div>
+                            <h3>Our Evolution</h3>
+                            <p>From experimental prototypes to production-ready systems, we've built a legacy of
+                                innovation in intelligent automation and robotics engineering.</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <circle cx="12" cy="12" r="6"></circle>
+                                    <circle cx="12" cy="12" r="2"></circle>
+                                </svg>
+                            </div>
+                            <h3>Our Vision</h3>
+                            <p>To create a future where intelligent systems amplify human potential, making advanced
+                                robotics and AI accessible, reliable, and transformative.</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                </svg>
+                            </div>
+                            <h3>Why Aeon</h3>
+                            <p>The name "Aeon" represents continuity, future-forward thinking, and infinite
+                                intelligence—principles that guide every system we engineer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aeon Engineering Philosophy -->
+    <section id="philosophy" class="section philosophy">
+        <div class="philosophy-container">
+            <div class="philosophy-image"
+                style="filter: brightness(var(--image-brightness)) contrast(var(--image-contrast));">
+                <img src="drone1.jpg" alt="Aeon Dynamics Drone Technology" class="philosophy-drone-image">
+            </div>
+            <div class="philosophy-content">
+                <h2 class="philosophy-title">Engineered Beyond Limitations.</h2>
+                <p class="philosophy-text">
+                    Every component, every algorithm, every system is designed with uncompromising precision. We don't
+                    just build robots—we engineer intelligence that adapts, learns, and evolves.
+                </p>
+                <p class="philosophy-text">
+                    Our philosophy is simple: push boundaries, eliminate constraints, and create systems that redefine
+                    what's possible in robotics and automation.
+                </p>
+                <div class="philosophy-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">0.01mm</div>
+                        <div class="stat-label">Precision</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Autonomy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="section technologies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Technologies</span>
+                <h2 class="section-title">Core Engineering Domains</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M2 17L12 22L22 17" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M2 12L12 17L22 12" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Robotics Engineering</h3>
+                    <p>Precision mechanical systems, actuator design, and advanced control architectures for industrial
+                        and consumer applications.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10" stroke-width="2" />
+                            <path d="M12 6V12L16 14" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Autonomous Systems</h3>
+                    <p>Self-navigating platforms with real-time decision-making, sensor fusion, and adaptive learning
+                        capabilities.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke-width="2" />
+                            <path d="M9 9H15V15H9Z" stroke-width="2" />
+                            <path d="M9 1V5M15 1V5M9 19V23M15 19V23M1 9H5M1 15H5M19 9H23M19 15H23" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Embedded AI & Vision</h3>
+                    <p>On-device neural networks, computer vision systems, and edge computing solutions for intelligent
+                        automation.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path
+                                d="M21 16V8C21 7.46957 20.7893 6.96086 20.4142 6.58579C20.0391 6.21071 19.5304 6 19 6H5C4.46957 6 3.96086 6.21071 3.58579 6.58579C3.21071 6.96086 3 7.46957 3 8V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H19C19.5304 18 20.0391 17.7893 20.4142 17.4142C20.7893 17.0391 21 16.5304 21 16Z"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M7 10H17M7 14H12" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Smart Environments</h3>
+                    <p>IoT integration, sensor networks, and intelligent building systems that create responsive,
+                        adaptive spaces.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path
+                                d="M9.663 17H4.337C3.603 17 3 16.397 3 15.663V8.337C3 7.603 3.603 7 4.337 7H9.663C10.397 7 11 7.603 11 8.337V15.663C11 16.397 10.397 17 9.663 17Z"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M19.663 17H14.337C13.603 17 13 16.397 13 15.663V8.337C13 7.603 13.603 7 14.337 7H19.663C20.397 7 21 7.603 21 8.337V15.663C21 16.397 20.397 17 19.663 17Z"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>R&D Labs</h3>
+                    <p>Cutting-edge research facilities where we prototype next-generation technologies and push the
+                        boundaries of what's possible.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3" stroke-width="2" />
+                            <path d="M12 1v6m0 6v6M1 12h6m6 0h6" stroke-width="2" stroke-linecap="round" />
+                            <path d="M4.22 4.22l4.24 4.24m7.08 0l4.24-4.24M4.22 19.78l4.24-4.24m7.08 0l4.24 4.24"
+                                stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Precision Control</h3>
+                    <p>Advanced motion control, feedback systems, and real-time processing for ultra-precise robotic
+                        operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Lineup Scroll (Tesla Models Style) -->
+    <section id="products" class="section products">
+        <div class="products-header">
+            <h2 class="products-title">Product Lineup</h2>
+            <p class="products-subtitle">Engineered for the future of automation</p>
+        </div>
+        <div class="products-scroll-container">
+            <div class="products-scroll">
+                <div class="product-card">
+                    <div class="product-image"
+                        style="filter: brightness(var(--image-brightness)) contrast(var(--image-contrast));">
+                        <img src="AeonBox.jpg" alt="AEONBOX Control System"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">AEONBOX</h3>
+                        <p class="product-description">The core brain of the Smart Automated Greenhouse, a fully
+                            engineered embedded system processing sensor data, running automation logic, IoT/Cloud
+                            messaging, and controlling all actuators.</p>
+                        <div class="product-specs">
+                            <span>Custom PCB</span>
+                            <span>AeonOS Powered</span>
+                            <span>Industrial Grade</span>
+                        </div>
+                        <a href="product-details.html?id=aeonbox" class="product-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products-scroll-indicators">
+            <button class="scroll-indicator-btn active" data-index="0"></button>
+        </div>
+    </section>
+
+    <!-- Flagship Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Projects</span>
+                <h2 class="section-title">Flagship Innovations</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 22V11" stroke-width="2" stroke-linecap="round" />
+                                <path d="M12 11C12 9 10 7 8 7S6 8 6 10c0 2 2 3 4 3" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <path d="M12 11C12 9 14 7 16 7s2 1 2 3c0 2-2 3-4 3" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <path d="M12 14c-2 0-4 1-4 3s2 3 4 3 4-1 4-3-2-3-4-3z" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Automated Greenhouse</h3>
+                        <p>Flagship fully autonomous climate-controlled farming system for African agriculture. Powered
+                            by AeonOS, it monitors temperature, humidity, soil moisture, irrigation, and lighting in
+                            real-time with minimal human intervention.</p>
+                        <a href="product-details.html?id=smart-greenhouse" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="5" y="6" width="14" height="12" rx="1" stroke-width="2" />
+                                <path d="M5 10h14M5 14h14M9 6v12M15 6v12" stroke-width="1.5" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>LumaGlass</h3>
+                        <p>Experimental high-efficiency solar technology converting UV and visible light to power.
+                            Enhanced photovoltaic layering maintains performance even in cloudy conditions—next-gen
+                            renewable energy.</p>
+                        <a href="product-details.html?id=uv-solar-panel" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="4" y="7" width="16" height="10" rx="2" stroke-width="2" />
+                                <circle cx="12" cy="12" r="2.5" stroke-width="2" />
+                                <circle cx="7" cy="10" r="0.5" fill="currentColor" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ANPR System</h3>
+                        <p>AI-powered computer vision solution for real-time vehicle number plate detection and
+                            verification. Works in low-light and motion—ideal for security gates, parking, and law
+                            enforcement.</p>
+                        <a href="product-details.html?id=anpr-system" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 12h12" stroke-width="2" stroke-linecap="round" />
+                                <path d="M18 12l-3-3m3 3l-3 3" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <circle cx="6" cy="12" r="1.5" fill="currentColor" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ultrasonic Laser Measuring Device</h3>
+                        <p>Compact precision distance-measuring tool combining ultrasonic sensing with laser guidance.
+                            Fast, reliable measurements for construction, automation, and industrial applications.</p>
+                        <a href="product-details.html?id=laser-measuring" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Softwares Section -->
+    <section id="softwares" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Software Ecosystem</span>
+                <h2 class="section-title">Intelligent Applications</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke-width="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21" stroke-width="2"></line>
+                                <line x1="12" y1="17" x2="12" y2="21" stroke-width="2"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aeon Control Center</h3>
+                        <p>Centralized command dashboard for managing autonomous fleets and greenhouse systems. Features
+                            real-time telemetry, remote override capabilities, and predictive analytics visualization.
+                        </p>
+                        <a href="#" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" stroke-width="2"></rect>
+                                <line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aeon Mobile Connect</h3>
+                        <p>Native mobile application for on-the-go monitoring of Aeon systems. Receive instant alerts,
+                            view live camera feeds, and adjust system parameters from anywhere in the world.</p>
+                        <a href="#" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polyline points="16 18 22 12 16 6" stroke-width="2"></polyline>
+                                <polyline points="8 6 2 12 8 18" stroke-width="2"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Neural Vision SDK</h3>
+                        <p>Comprehensive software development kit for integrating Aeon's computer vision models into
+                            third-party applications. Includes pre-trained models for object detection and anomaly
+                            recognition.</p>
+                        <a href="#" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M2 20h20" stroke-width="2"></path>
+                                <path d="M5 20v-5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5" stroke-width="2"></path>
+                                <path d="M12 13V4" stroke-width="2"></path>
+                                <circle cx="12" cy="4" r="2" stroke-width="2"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>SimuBot Environment</h3>
+                        <p>High-fidelity physics simulation platform for testing robotic algorithms before deployment.
+                            Validates kinematics, path planning, and sensor fusion in a risk-free virtual world.</p>
+                        <a href="#" class="project-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intelligent Control OS Section -->
+    <section id="aeonos" class="section aeonos">
+        <div class="aeonos-container">
+            <div class="aeonos-header">
+                <span class="section-label">Operating System</span>
+                <h2 class="section-title">AeonOS</h2>
+                <p class="aeonos-subtitle">The intelligence layer powering next-generation robotics</p>
+            </div>
+            <div class="aeonos-content">
+                <div class="aeonos-visual">
+                    <div class="os-panel os-panel-main">
+                        <div class="os-header">
+                            <div class="os-dot"></div>
+                            <div class="os-dot"></div>
+                            <div class="os-dot"></div>
+                            <span class="os-title">AeonOS v2.0</span>
+                        </div>
+                        <div class="os-content">
+                            <div class="os-widget">
+                                <div class="os-widget-title">Autonomy Engine</div>
+                                <div class="os-progress">
+                                    <div class="os-progress-bar" style="width: 94%"></div>
+                                </div>
+                            </div>
+                            <div class="os-widget">
+                                <div class="os-widget-title">Sensor Fusion</div>
+                                <div class="os-progress">
+                                    <div class="os-progress-bar" style="width: 87%"></div>
+                                </div>
+                            </div>
+                            <div class="os-widget">
+                                <div class="os-widget-title">Decision Making</div>
+                                <div class="os-progress">
+                                    <div class="os-progress-bar" style="width: 91%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="os-panel os-panel-floating os-panel-1">
+                        <div class="os-panel-content">Real-Time Processing</div>
+                    </div>
+                    <div class="os-panel os-panel-floating os-panel-2">
+                        <div class="os-panel-content">Neural Networks</div>
+                    </div>
+                    <div class="os-panel os-panel-floating os-panel-3">
+                        <div class="os-panel-content">Adaptive Learning</div>
+                    </div>
+                </div>
+                <div class="aeonos-features">
+                    <div class="aeonos-feature">
+                        <h3>Autonomy</h3>
+                        <p>Self-governing systems that make intelligent decisions in real-time without human
+                            intervention.</p>
+                    </div>
+                    <div class="aeonos-feature">
+                        <h3>Real-Time Decision Making</h3>
+                        <p>Sub-millisecond response times with advanced neural processing for critical operations.</p>
+                    </div>
+                    <div class="aeonos-feature">
+                        <h3>Hybrid Sensor Fusion</h3>
+                        <p>Multi-modal sensor integration combining vision, LiDAR, radar, and proprioceptive feedback.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Lab Section -->
+    <section id="innovation" class="section innovation">
+        <div class="container">
+            <div class="innovation-content">
+                <div class="innovation-text">
+                    <span class="section-label">Innovation Lab</span>
+                    <h2 class="section-title">Engineering Excellence</h2>
+                    <p class="innovation-description">
+                        Our Innovation Lab is where theoretical research meets practical engineering. We prototype,
+                        test, and refine technologies that will define the next decade of robotics and AI.
+                    </p>
+                    <div class="innovation-features">
+                        <div class="innovation-feature">
+                            <div class="feature-number">01</div>
+                            <div class="feature-content">
+                                <h4>Research Focus</h4>
+                                <p>Advanced neural architectures, swarm robotics, human-robot collaboration, and
+                                    adaptive control systems.</p>
+                            </div>
+                        </div>
+                        <div class="innovation-feature">
+                            <div class="feature-number">02</div>
+                            <div class="feature-content">
+                                <h4>Experimental Prototypes</h4>
+                                <p>Rapid iteration cycles, proof-of-concept development, and validation of breakthrough
+                                    technologies.</p>
+                            </div>
+                        </div>
+                        <div class="innovation-feature">
+                            <div class="feature-number">03</div>
+                            <div class="feature-content">
+                                <h4>Engineering Excellence</h4>
+                                <p>Rigorous testing, performance optimization, and production-readiness validation for
+                                    every system.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-visual">
+                    <div class="innovation-card-glass">
+                        <div class="glass-content">
+                            <div class="pulse-ring"></div>
+                            <div class="pulse-ring"></div>
+                            <div class="pulse-ring"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section awards">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Recognition</span>
+                <h2 class="section-title">Awards & Exhibitions</h2>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                            <path d="M4 22h16"></path>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                        </svg>
+                    </div>
+                    <h3>Best Tech Exhibition</h3>
+                    <p>ESB Exhibition 2025</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                    </div>
+                    <h3>Best in Automation</h3>
+                    <p>Automation Expo</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Engineering Excellence</h3>
+                    <p>Best Invention at GEW Nigeria</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="2" x2="12" y2="6"></line>
+                            <line x1="12" y1="18" x2="12" y2="22"></line>
+                            <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line>
+                            <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line>
+                            <line x1="2" y1="12" x2="6" y2="12"></line>
+                            <line x1="18" y1="12" x2="22" y2="12"></line>
+                            <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line>
+                            <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line>
+                            <circle cx="12" cy="12" r="5"></circle>
+                        </svg>
+                    </div>
+                    <h3>Innovation Showcase</h3>
+                    <p>Bayero University Innovation Week</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section id="why-choose" class="section why-choose">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Choose</span>
+                <h2 class="section-title">Aeon Dynamics</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
+                            </path>
+                            <path
+                                d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+                            </path>
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Future-Driven Engineering</h3>
+                    <p>We don't just build for today we engineer systems that anticipate tomorrow's challenges and
+                        opportunities.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6M1 12h6m6 0h6"></path>
+                            <path d="M4.22 4.22l4.24 4.24m7.08 0l4.24-4.24M4.22 19.78l4.24-4.24m7.08 0l4.24 4.24">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Precision-Built Systems</h3>
+                    <p>Every component is designed, tested, and refined to meet the highest standards of reliability and
+                        performance.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 3h12l4 6-10 12L2 9l4-6z"></path>
+                            <path d="M11 3L8 9l4 12 4-12-3-6"></path>
+                            <path d="M2 9h20"></path>
+                        </svg>
+                    </div>
+                    <h3>Proven Innovation</h3>
+                    <p>Our track record speaks for itself from experimental prototypes to production systems deployed
+                        worldwide.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Collaborative Partnership</h3>
+                    <p>We work closely with clients to understand their needs and deliver solutions that exceed
+                        expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <span class="section-label">Contact</span>
+                    <h2 class="section-title">Collaborate with Aeon Dynamics</h2>
+                    <p class="contact-description">
+                        Ready to transform your vision into reality? Let's discuss how our robotics, automation, and AI
+                        solutions can elevate your project.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:aeondynamics@gmail.com"
+                                        style="color: inherit; text-decoration: none;">aeondynamics@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                    <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Kano, Nigeria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Tesla Style) -->
+    <footer class="footer footer-tesla">
+        <div class="footer-background"
+            style="filter: brightness(var(--image-brightness)) contrast(var(--image-contrast));"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links-tesla">
+                    <div class="footer-link-group">
+                        <h4><a href="#about">About</a></h4>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4><a href="#products">Robotics</a></h4>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4><a href="#contact">Support</a></h4>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4><a href="#contact">Careers</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-bottom-tesla">
+                <p>&copy; 2024 Aeon Dynamics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

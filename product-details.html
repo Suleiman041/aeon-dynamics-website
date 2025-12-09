@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Aeon Dynamics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="AEON_light_mode-removebg-preview.png" alt="Aeon Dynamics" class="logo-image"
+                        id="logoImage">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#hero" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#technologies" class="nav-link">Technologies</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#innovation" class="nav-link">Innovation</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="hero product-hero">
+        <div class="hero-background">
+            <div class="product-hero-overlay"></div>
+        </div>
+        <div class="container hero-container product-hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="section-label">Next-Gen System</span>
+                    <h1 class="hero-title">Autonomous Robotics Unit</h1>
+                    <p class="hero-subtitle">The future of intelligent automation is here. Unmatched precision,
+                        adaptability, and autonomy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview Section -->
+    <section class="section product-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content">
+                    <h2 class="section-title">Redefining Capability</h2>
+                    <p class="overview-text">
+                        Our Autonomous Robotics Unit represents the pinnacle of Aeon Dynamics engineering. Built on the
+                        AeonOS platform, it integrates advanced sensor fusion with real-time neural processing to
+                        navigate complex environments with human-like adaptability.
+                    </p>
+                    <p class="overview-text">
+                        Whether deployed in precision manufacturing, hazardous environment exploration, or logistics,
+                        this system delivers 99.9% uptime and sub-millimeter accuracy.
+                    </p>
+                    <div class="product-specs-list">
+                        <div class="spec-item">
+                            <span class="spec-label">Processing</span>
+                            <span class="spec-value">120 TOPS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Battery Life</span>
+                            <span class="spec-value">18 Hours</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Payload</span>
+                            <span class="spec-value">250 kg</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Connectivity</span>
+                            <span class="spec-value">5G / WiFi 6E</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-visual">
+                    <div class="product-detail-card">
+                        <div class="product-detail-image">
+                            <img src="Full greenhouse.jpg" alt="Product Image"
+                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px; filter: brightness(var(--image-brightness)) contrast(var(--image-contrast));">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="section product-features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Capabilities</span>
+                <h2 class="section-title">Key Features</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Neural Navigation</h3>
+                    <p>SLAM-based mapping combined with semantic understanding allows the system to navigate dynamic
+                        environments intelligently.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10" stroke-width="2" />
+                            <path d="M12 6v6l4 2" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Predictive Maintenance</h3>
+                    <p>Self-monitoring sensors detect wear patterns and schedule maintenance before failures occur.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon-wrapper">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke-width="2" />
+                            <path d="M9 9h6v6H9z" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Swarm Interlink</h3>
+                    <p>Seamlessly communicates with other Aeon units to coordinate tasks and optimize workflow
+                        efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <span class="section-label">Interested?</span>
+                    <h2 class="section-title">Request a Demo</h2>
+                    <p class="contact-description">
+                        See the Autonomous Robotics Unit in action. Contact our sales team to schedule a personalized
+                        demonstration.
+                    </p>
+                    <a href="index.html#contact" class="btn btn-primary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Tesla Style) -->
+    <footer class="footer footer-tesla">
+        <div class="footer-background"
+            style="filter: brightness(var(--image-brightness)) contrast(var(--image-contrast));"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links-tesla">
+                    <div class="footer-link-group">
+                        <h4><a href="index.html#about">About</a></h4>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4><a href="index.html#products">Robotics</a></h4>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4><a href="index.html#contact">Support</a></h4>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4><a href="index.html#contact">Careers</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-tesla">
+                <p>&copy; 2024 Aeon Dynamics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
