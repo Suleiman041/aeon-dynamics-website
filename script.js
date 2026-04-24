@@ -444,6 +444,24 @@ window.addEventListener('scroll', highlightNav);
 // ============================================
 
 const productData = {
+    'agriboost': {
+        title: 'AgriBoost AI',
+        subtitle: 'Agricultural Intelligence Platform',
+        image: 'agriboost_beta.jpg',
+        description: 'A web-based, AI-driven decision-support system that empowers farmers with data-backed insights. AgriBoost AI provides intelligent crop diagnostics, localized weather forecasting, yield optimization analytics, and real-time market intelligence.',
+        description2: 'The platform helps farmers make faster, more accurate production decisions while reducing risks and improving profitability. Built with Aeon\'s cutting-edge AI software ecosystem, AgriBoost AI serves as the digital backbone for modern agriculture.',
+        specs: [
+            { label: 'Type', value: 'Web Platform' },
+            { label: 'Core Tech', value: 'Machine Learning' },
+            { label: 'Delivery', value: 'Cloud SaaS' },
+            { label: 'Focus', value: 'Agri-Tech' }
+        ],
+        features: [
+            { title: 'Crop Diagnostics', description: 'Intelligent computer vision algorithms capable of diagnosing crop diseases from imagery.' },
+            { title: 'Weather Forecasting', description: 'Hyper-localized weather predictions and insights customized for individual farm plots.' },
+            { title: 'Yield Analytics', description: 'Market intelligence and data forecasting to optimize yield, profitability, and operational efficiency.' }
+        ]
+    },
     'smart-greenhouse': {
         title: 'Smart Automated Greenhouse',
         subtitle: 'Flagship fully autonomous climate-controlled farming system designed for African agriculture',
