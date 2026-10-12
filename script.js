@@ -378,7 +378,7 @@ if (contactForm) {
         // Create mailto link with form data
         const subject = encodeURIComponent(`Contact from ${name}`);
         const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-        const mailtoLink = `mailto:aeondynamics@gmail.com?subject=${subject}&body=${body}`;
+        const mailtoLink = `mailto:suleiman@aeondynamicsltd.com.ng?subject=${subject}&body=${body}`;
 
         //Open user's email client
         window.location.href = mailtoLink;
